@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-color: #7EBBD0; */
+
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    /* max-width: 1170px; */
+    max-width: 1300px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+    /* outline: 1px red solid; */
+    text-align: center;
+
+    height: 100vh;
+}
+
+.buttonWrapper {
+    margin: auto;
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+.buttonWrapper li {
+    list-style: none;
+}
+
+.buttonWrapper li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width: 170px;
+    height: 42px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.buttonWrapper li a:hover {
+    background-color: #5F03E4;
+    color: #fff;
+}
+
+h1 {
+    padding-top: 30%;
+    font-size: 100px;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px 0 38px 0;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        padding-top: 50%;
+        font-size: 60px;
+        color: #fff;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 30px;
+        margin: 10px 0 38px 0;
+    }
+
+    .buttonWrapper li a {
+        width: 144px;
+        height: 31px;
+        border-radius: 25px;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    h1 {
+        padding-top: 75%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 0 38px 0;
+    }
+
+    .buttonWrapper li a {
+        width: 115px;
+        height: 30px;
+        border-radius: 25px;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        padding-top: 75%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 20px;
+        margin: 10px 0 38px 0;
+    }
+
+    .buttonWrapper li a {
+        width: 75px;
+        height: 21px;
+        border-radius: 25px;
+        padding-top: 2px;
+        font-size: 13px;
+    }
+}

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: sans-serif;
 
 }
@@ -44,6 +43,7 @@ h2 {
 img {
     width: 100%;
     height: 90%;
+    object-fit: cover;
 }
 
 .item {

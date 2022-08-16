@@ -27,6 +27,7 @@ li {
 }
 
 .wrapper {
+    padding-top: 5px;
     max-width: 1300px;
     margin: auto;
 }

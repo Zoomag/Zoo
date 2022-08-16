@@ -7,6 +7,13 @@
 
 html {
     height: 100%;
+    background: #06AFF7;
+    background: -webkit-linear-gradient(top, #06AFF7, #1E5B69);
+    background: -moz-linear-gradient(top, #06AFF7, #1E5B69);
+    background: linear-gradient(to bottom, #06AFF7, #1E5B69);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 body {
@@ -24,6 +31,7 @@ body {
     max-width: 1300px;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 5px;
     margin: auto;
     /* outline: 1px red solid; */
     text-align: center;

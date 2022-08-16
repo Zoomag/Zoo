@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     /* background-color: #7EBBD0; */
 
@@ -12,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 .wrapper {

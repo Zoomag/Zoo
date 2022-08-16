@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
 .wrapper {
@@ -23,7 +24,7 @@ body {
     /* outline: 1px red solid; */
     text-align: center;
 
-    height: 100vh;
+    height: 100%;
 }
 
 .buttonWrapper {
@@ -55,7 +56,7 @@ body {
 }
 
 h1 {
-    padding-top: 30%;
+    padding-top: 25%;
     font-size: 100px;
     color: #fff;
 }
@@ -127,5 +128,27 @@ h3 {
         border-radius: 25px;
         padding-top: 2px;
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    h1 {
+        padding-top: 100%;
+        font-size: 30px;
+
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 15px;
+        margin: 10px 0 38px 0;
+    }
+
+    .buttonWrapper li a {
+        width: 60px;
+        height: 15px;
+        border-radius: 25px;
+        padding-top: 2px;
+        font-size: 10px;
     }
 }

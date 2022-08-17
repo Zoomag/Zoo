@@ -1,14 +1,7 @@
-.nav {
-    /* margin: 5px; */
-    /* outline: 1px solid rgb(246, 6, 170); */
-
-}
-
 .nav ul {
     height: 50px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .itemNav {
@@ -18,10 +11,6 @@
     border: 1px solid black;
     border-radius: 5px;
     margin: 0 2px;
-}
-
-.itemNav:last-child {
-    /* border: none; */
 }
 
 .itemNav:hover {

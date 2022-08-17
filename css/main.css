@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100%;
+    height: 100vh;
     background: #06AFF7;
     background: -webkit-linear-gradient(top, #06AFF7, #1E5B69);
     background: -moz-linear-gradient(top, #06AFF7, #1E5B69);
@@ -69,8 +69,9 @@ body {
 }
 
 h1 {
+
     outline: 1px solid rgb(250, 250, 16);
-    padding-top: 25%;
+    /* padding-top: 25%; */
     font-size: 100px;
     color: #f2eded;
 }
@@ -82,9 +83,21 @@ h3 {
     margin: 10px 0 38px 0;
 }
 
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(99vh - 50px);
+    outline: #3bf906 3px solid;
+}
+
+.content {
+    height: 200px;
+}
+
 @media screen and (max-width: 700px) {
     h1 {
-        padding-top: 50%;
+        /* padding-top: 50%; */
         font-size: 60px;
 
     }
@@ -105,7 +118,7 @@ h3 {
 
 @media screen and (max-width: 533px) {
     h1 {
-        padding-top: 75%;
+        /* padding-top: 75%; */
         font-size: 50px;
     }
 
@@ -125,7 +138,7 @@ h3 {
 
 @media screen and (max-width: 400px) {
     h1 {
-        padding-top: 75%;
+        /* padding-top: 75%; */
         font-size: 50px;
 
     }
@@ -147,7 +160,7 @@ h3 {
 
 @media screen and (max-width: 305px) {
     h1 {
-        padding-top: 100%;
+        /* padding-top: 100%; */
         font-size: 30px;
 
     }

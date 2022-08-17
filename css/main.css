@@ -25,6 +25,7 @@ body {
     background-size: cover;
     min-height: 100%;
     outline: 5px dotted red;
+    height: 100vh;
 }
 
 .wrapper {

@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100vh;
+    height: 100%;
     background: #06AFF7;
     background: -webkit-linear-gradient(top, #06AFF7, #1E5B69);
     background: -moz-linear-gradient(top, #06AFF7, #1E5B69);
@@ -88,7 +88,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(99vh - 50px);
+    height: calc(90vh - 50px);
     /* outline: #3bf906 3px solid; */
 }
 
@@ -191,13 +191,13 @@ h3 {
 @media screen and (max-width: 300px) {
     .centerContent {
 
-        height: calc(99vh - 20px);
+        height: calc(90vh - 20px);
     }
 }
 
 @media screen and (max-width: 245px) {
     .centerContent {
 
-        height: calc(99vh - 15px);
+        height: calc(90vh - 15px);
     }
 }

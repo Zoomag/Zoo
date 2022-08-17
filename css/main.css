@@ -24,7 +24,7 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 100%;
-    outline: 5px dotted red;
+    /* outline: 5px dotted red; */
     height: 100vh;
 }
 
@@ -35,7 +35,7 @@ body {
     padding-right: 16px;
     padding-top: 5px;
     margin: auto;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
     text-align: center;
     height: 100%;
 }
@@ -45,7 +45,7 @@ body {
     display: flex;
     max-width: 600px;
     justify-content: space-between;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .buttonWrapper li {
@@ -71,14 +71,14 @@ body {
 
 h1 {
 
-    outline: 1px solid rgb(250, 250, 16);
+    /* outline: 1px solid rgb(250, 250, 16); */
     /* padding-top: 25%; */
     font-size: 100px;
     color: #f2eded;
 }
 
 h3 {
-    outline: 1px solid rgb(250, 16, 211);
+    /* outline: 1px solid rgb(250, 16, 211); */
     color: #f2eded;
     font-size: 40px;
     margin: 10px 0 38px 0;
@@ -89,7 +89,7 @@ h3 {
     justify-content: center;
     align-items: center;
     height: calc(100% - 50px);
-    outline: #3bf906 3px solid;
+    /* outline: #3bf906 3px solid; */
 }
 
 .content {

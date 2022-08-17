@@ -23,7 +23,7 @@ body {
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     outline: 5px dotted red;
 }
 

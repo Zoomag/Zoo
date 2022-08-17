@@ -20,7 +20,7 @@ body {
     /* background-color: #7EBBD0; */
 
     background-image: url(../img/bg1.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
     height: 100%;

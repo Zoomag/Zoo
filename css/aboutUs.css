@@ -43,6 +43,29 @@ p {
     /* Отступ первой строки */
 }
 
+.containerList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin: 20px;
+}
+
+.firstList li {
+    list-style-image: url("../img/fish-bowl.png");
+}
+
+.secondList {
+    list-style-image: url("../img/paw.png");
+}
+
+.thirdList {
+    list-style-image: url("../img/happy.png");
+}
+
+
 @media screen and (max-width: 700px) {
     h2 {
         font-size: 40px;

@@ -21,7 +21,6 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    outline: 5px solid blue;
 }
 
 .wrapper {
@@ -31,7 +30,7 @@ body {
     padding-top: 5px;
     margin: auto;
     text-align: center;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .buttonWrapper {
@@ -78,18 +77,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(90vh - 50px);
+    height: calc(80vh - 50px);
 }
 
 .content {
     height: 200px;
 }
 
-.c {
-    width: 100px;
-    height: 1px;
-    outline: 1px solid yellow;
-}
 
 @media screen and (max-width: 700px) {
     h1 {
@@ -112,7 +106,7 @@ h3 {
 @media screen and (max-width: 620px) {
     .centerContent {
 
-        height: calc(99vh - 30px);
+        height: calc(70vh - 30px);
     }
 }
 
@@ -176,13 +170,13 @@ h3 {
 @media screen and (max-width: 300px) {
     .centerContent {
 
-        height: calc(90vh - 20px);
+        height: calc(80vh - 20px);
     }
 }
 
 @media screen and (max-width: 245px) {
     .centerContent {
 
-        height: calc(90vh - 15px);
+        height: calc(80vh - 15px);
     }
 }

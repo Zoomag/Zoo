@@ -6,7 +6,7 @@
 }
 
 html {
-    min-height: 100%;
+    min-height: 100vh;
     background: #06AFF7;
     background: -webkit-linear-gradient(top, #06AFF7, #1E5B69);
     background: -moz-linear-gradient(top, #06AFF7, #1E5B69);
@@ -20,7 +20,7 @@ body {
     background-image: url(../img/bg1.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .wrapper {
@@ -33,7 +33,7 @@ body {
     min-height: 100vh;
 }
 
-.buttonWrapper {
+/* .buttonWrapper {
     margin: auto;
     display: flex;
     max-width: 600px;
@@ -59,12 +59,12 @@ body {
 .buttonWrapper li a:hover {
     background-color: #5F03E4;
     color: #fff;
-}
+} */
 
 h1 {
     font-size: 100px;
     color: #f2eded;
-    /* outline: 1px solid red; */
+
 }
 
 h3 {
@@ -77,11 +77,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(75vh - 50px);
-    overflow: hidden;
+    height: 100%;
+    height: calc(80vh - 50px);
+
 }
 
 .content {
+    margin-top: 10px;
     height: 200px;
 }
 
@@ -97,6 +99,7 @@ h3 {
     }
 
     .buttonWrapper li a {
+        display: none;
         width: 144px;
         height: 31px;
         border-radius: 25px;

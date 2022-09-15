@@ -9,10 +9,10 @@ body {
 }
 
 body {
-    background: #D8BFD8;
-    background: -webkit-linear-gradient(top, #D8BFD8, #1E5B69);
-    background: -moz-linear-gradient(top, #D8BFD8, #1E5B69);
-    background: linear-gradient(to bottom, #D8BFD8, #1E5B69);
+    background: #AFEEEE;
+    background: -webkit-linear-gradient(top, #AFEEEE, #1E5B69);
+    background: -moz-linear-gradient(top, #AFEEEE, #1E5B69);
+    background: linear-gradient(to bottom, #AFEEEE, #1E5B69);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
